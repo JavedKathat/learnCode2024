@@ -15,6 +15,6 @@ public class JavaFunc2 {
         System.out.println("Enter number to calculate Factorial:-");
         int n = sc.nextInt();
         calculateFactorial(n);
-        sc.close();
+
     }
 }
