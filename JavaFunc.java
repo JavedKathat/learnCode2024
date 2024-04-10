@@ -14,7 +14,7 @@ public class JavaFunc {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int val;
-        System.out.println("Enter the value of a and b :- \n");
+        System.out.println("Enter the value of a and b :-");
         int a = sc.nextInt();
         int b = sc.nextInt();
         char ch;
@@ -23,7 +23,7 @@ public class JavaFunc {
             System.out.println("Do you want new values:-");
             ch = sc.next().charAt(0);
             if (ch == 'y' || ch == 'Y') {
-                System.out.println("Enter the value of a and b :- \n");
+                System.out.println("Enter the value of a and b :-");
                 a = sc.nextInt();
                 b = sc.nextInt();
 
